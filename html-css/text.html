@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .youtube-text {
+           font-size: 18px;
+           font-weight: bold;
+           line-height: 24px;
+           width: 284px;
+           padding: 8px;
+           margin-bottom: 60px;
+        }
+
+        .video-title {
+            height: 48px;
+            width: 284px;
+            margin-bottom: 2px;
+        }
+        .video-stats {
+            font-size: 14px;
+            height: 21px;
+            width: 284px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #606060;
+            margin-bottom: 16px;
+        }
+
+        .channel-name {
+            color: #606060;
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        .video-description {
+            color: #606060;
+            width: 284px;
+            font-weight: 400;
+            font-size: 14px;
+        }
+        
+        .apple-banner {
+            margin-left: 8px;
+            margin-right: 8px;
+            margin-bottom: 16px;
+            background-color: #e34140;
+            padding: 16px;
+            font-size: 14px;
+            text-align: center;
+            color: white;
+            font-weight: 400;
+        }
+        
+        .span-link {
+            color: white;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        .span-link:hover {
+            text-decoration: underline;
+        }
+
+        .shop {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        .shop h2 {
+            margin: 10px;
+        }
+
+
+        .shop p {
+            margin: 10px;
+            font-weight: 400;
+        }
+
+        .shop a {
+            text-decoration: none;
+        }
+
+
+        .course {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .subtitle  {
+            color: #606060;
+            margin-bottom: 20px;
+        }
+
+        .course p {
+            width: 270px;
+            margin-bottom: 20px;
+        }
+
+        .btn-gs {
+            color: white;
+            background-color: green;
+            border-style: none;
+            width: 120px;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .btn-gs:hover {
+            color: green;
+            border: 1px solid green;
+            background-color: white;
+        }
+
+        .cat {
+            height: 200px;
+            width: 200px;
+            border-radius: 15px;
+            border: 1px solid red;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .cat-square {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-left: 10px;
+        }
+
+        .cat-circle {
+            height: 200px;
+            width: 200px;
+            margin-left: 10px;
+            object-fit: cover;
+            border-radius: 100px;
+        }
+
+        .text-input {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .search {
+            margin-left: 10px;
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: medium;
+            border-radius: 5px;
+            border: 1px solid #606060;
+        }
+
+        .google {
+            border: 1px solid red;
+            width: 50%;
+            margin: auto;
+            display: flex;
+        }
+
+        .cat-google {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-left: 5px;
+        }
+
+        .search-google {
+            margin-left: 20px;
+            border-style: none;
+            width: 500px;
+        }
+
+        .btn-google {
+            margin-right: 5px;
+            padding: 20px;
+        }
+
+        .name-input,
+        .email-input {
+            display: inline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="youtube-text">
+        <p>logo</p>
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Elon Musk 
+        </p>
+        <p class="video-stats">3.4m views &#183; 6 months ago</p>
+        <p class="channel-name">Vicc Zd &#10004;</p>
+        <p class="video-description">
+            Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google CEO. Shout out to him!
+        </p>
+    </div>
+    <div class="apple-banner">
+        <p>Shop early for the best selection of holiday favouries. <span class="span-link">Shop now &gt;</span></p>
+    </div>
+
+    <div class="shop">
+        <h2>Shopping for your business?</h2>
+        <p>See how Apple at Work can help.</p>
+        <a href="#">Learn more &#62;</a>
+    </div>
+
+    <div class="course">
+        <h1>HTML CSS Course</h1>
+        <p class="subtitle">Beginner to Pro</p>
+        <p>In this course, we'll learn the skills you need to become a developer.</p>
+
+        <button class="btn-gs">Get Started</button>
+    </div>
+
+    <div>
+        <img class="cat" src="cat.jpg" alt="cat-image">
+        <img class="cat-square" src="cat.jpg" alt="cat-image">
+        <img class="cat-circle" src="cat.jpg" alt="cat-image">
+    </div>
+
+    <div class="text-input">
+        <input class="search" type="text" placeholder="Search">
+    </div>
+    <div class="google">
+        <img class="cat-google" src="cat.jpg" alt="cat">
+        <input type="text" placeholder="Search Google" class="search-google">
+        <button class="btn-google">Tweet</button>
+    </div>
+
+    <div class="in-block">
+        <input class="name-input" type="text" placeholder="Name">
+        <input class="email-input" type="text" placeholder="Email">
+    </div>
+
+
+</body>
+</html>

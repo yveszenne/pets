@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .sidebar1 {
+            position: fixed;
+            background-color: rgb(94, 94, 94);
+            padding: 5px;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        .picture {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-bottom: 5px;
+        }
+
+        .sidebar2 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin-left: 50px;
+            width: 100px;
+            padding: 10px;
+            background-color: rgb(172, 172, 172);
+            color: white;
+        } 
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+        }
+
+        .new {
+            color: rgb(218, 218, 218);
+            cursor: pointer;
+        }
+
+        .channel {
+            margin-bottom: 6px;
+            color: rgb(231, 231, 231);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sidebar1">
+        <div>
+            <img src="cat.jpg" alt="" class="picture">
+        </div>
+        <div>
+            <img src="cat.jpg" alt="" class="picture">
+        </div>
+        <div>
+            <img src="cat.jpg" alt="" class="picture">
+        </div>
+    </div>
+
+    <div class="sidebar2">
+        <div class="header">
+            <div class="info">INFO</div>
+            <div class="new">&plus;</div>
+        </div>
+        <div class="channel"># new ideas</div>
+        <div class="channel"># updates</div>
+        <div class="channel"># faq</div>
+    </div>
+
+</body>
+</html>

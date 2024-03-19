@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 20px;
+        }
+
+        .profile {
+            width: 200px;
+            box-shadow: 0 0 5px gray;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+
+        .image-profile {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 5px 5px 5px;
+            vertical-align: top;
+        }
+
+        .mutual-grid-row {
+            display: grid;
+            grid-template-columns: 45px 1fr;
+            align-items: center;
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+
+        .channel-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 25px;
+        }
+
+        .mutual {
+            margin-left: 10px;
+            color: gray;
+        }
+
+        .btn-add {
+            margin-left: 5px;
+            border-style: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100px;
+            border-radius: 5px;
+            padding: 10px 5px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="profile">
+            <img class="image-profile" src="cat.jpg" alt="" srcset="">
+            <p class="name">Oliver asdfasdfaasdfa asdfas wd</p>
+            <div class="mutual-grid-row">
+                <img class="channel-image"  src="channel-1.jpeg" alt="" srcset="">
+                <p class="mutual">2 mutual friends</p>
+            </div>
+            <button class="btn-add">Add friend</button>
+        </div>
+        <div class="profile">
+            <img class="image-profile" src="cat.jpg" alt="" srcset="">
+            <p class="name">Oliver</p>
+            <div class="mutual-grid-row">
+                <img class="channel-image"  src="channel-1.jpeg" alt="" srcset="">
+                <p class="mutual">2 mutual friends</p>
+            </div>
+            <button class="btn-add">Add friend</button>
+        </div>
+        <div class="profile">
+            <img class="image-profile" src="cat.jpg" alt="" srcset="">
+            <p class="name">Oliver</p>
+            <div class="mutual-grid-row">
+                <img class="channel-image"  src="channel-1.jpeg" alt="" srcset="">
+                <p class="mutual">2 mutual friends</p>
+            </div>
+            <button class="btn-add">Add friend</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>

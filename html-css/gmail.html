@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <style>
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            width: 400px;
+            margin-top: 20px;
+            margin-left: 20px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            padding: 10px 15px;
+        }
+
+        .inbox-label {
+            font-size: 14px;
+            margin-bottom: 20px;
+            color: grey;
+        }
+
+        .email {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+
+        .sender-picture {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            margin-right: 10px;
+            border-radius: 25px;
+        }
+
+        .email-container {
+            flex: 1;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            align-items: center;
+        }
+
+        .sender-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .send-time {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .subject {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .message {
+            color: gray;
+        }
+
+
+        .test {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inbox-label">
+            <p>ALL INBOXES</p>
+        </div>
+        <div class="test">
+            <div class="email">
+                <div class="sender-picture-container">
+                    <img src="cat.jpg" alt="" class="sender-picture">
+                </div>
+                <div class="email-container">
+                    <div class="header">
+                        <div class="sender-name">chewy promotions</div>
+                        <div class="send-time">4:34 pm</div>
+                    </div>
+                    <div class="subject">biggest sales of the year!</div>
+                    <div class="message">hey there! this is it, we are writing...</div>
+                </div>
+            </div>
+            <div class="email">
+                <div class="sender-picture-container">
+                    <img src="cat.jpg" alt="" class="sender-picture">
+                </div>
+                <div class="email-container">
+                    <div class="header">
+                        <div class="sender-name">chewy promotions</div>
+                        <div class="send-time">4:34 pm</div>
+                    </div>
+                    <div class="subject">biggest sales of the year!</div>
+                    <div class="message">hey there! this is it, we are writing...</div>
+                </div>
+            </div>
+            <div class="email">
+                <div class="sender-picture-container">
+                    <img src="cat.jpg" alt="" class="sender-picture">
+                </div>
+                <div class="email-container">
+                    <div class="header">
+                        <div class="sender-name">chewy promotions</div>
+                        <div class="send-time">4:34 pm</div>
+                    </div>
+                    <div class="subject">biggest sales of the year!</div>
+                    <div class="message">hey there! this is it, we are writing...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

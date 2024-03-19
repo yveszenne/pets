@@ -7,76 +7,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <style>
-
-        p {
-            font-family: 'Robot', Arial;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .search-bar {
-            display: block;
-        }
-
-        .thumbnail {
-            width: 300px;
-            display: block;
-        }
-
-        .video-preview {
-            width: 300px;
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 15px;
-        }
-
-        .channel-pic {
-            display: inline-block;
-            width: 50px;
-            vertical-align: top;
-        }
-
-        .video-info {
-            display: inline-block;
-            width: 200px;
-        }
-
-        .profile-pic {
-            width: 100%;
-            border-radius: 25px;
-        }
-
-        .video-title {
-            margin-top: 0;
-            font-size: 14px;
-            line-height: 20px;
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
-
-        .video-author,
-        .video-stats {
-            font-size: 12px;
-            color: #606060;
-        }
-
-        .video-author {
-            margin-bottom: 6px;
-        }
-
-        .thumbnail-row {
-            margin-bottom: 12px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <input class="search-bar" type="text" placeholder="Search">
+    <header>
+        <div class="left-section">
+            <img class="hamburger-menu" src="hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img class="search-icon" src="search.svg" alt="">
+            </button>
+            <button class="voice-search-btn">
+                <img class="voice-search-icon"  src="voice-search-icon.svg" alt="">
+            </button>
+        </div>
+        <div class="right-section">
+                <img class="upload-icon" src="upload.svg" alt="">
+                <img class="youtube-apps-icon" src="youtube-apps.svg" alt="">
+                <img class="notification-icon" src="notifications.svg" alt="">
+                <img class="current-user-icon" src="channel-1.jpeg" alt="">
+        </div>
+    </header>
+
+    <div class="video-grid">
     <div class="video-preview">
         <div class="thumbnail-row">
             <img class="thumbnail" src="thumbnail-1.webp" alt="">
         </div>
-        <div>
+        <div class="video-info-grid">
             <div class="channel-pic">
                 <img class="profile-pic" src="channel-1.jpeg" alt="">
             </div>
@@ -91,7 +52,7 @@
             <div class="thumbnail-row">
                 <img class="thumbnail" src="thumbnail-2.webp" alt="">
             </div>
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-pic">
                     <img class="profile-pic" src="channel-2.jpeg" alt="">
                 </div>
@@ -101,6 +62,70 @@
                     <p class="video-stats">1.5M views &middot; 3 years ago</p>
                 </div>
             </div>
+    </div>
+    <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-2.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-2.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Laughing challenges #2</p>
+                    <p class="video-author">Terri Sect</p>
+                    <p class="video-stats">1.5M views &middot; 3 years ago</p>
+                </div>
+            </div>
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail-1.webp" alt="">
         </div>
+        <div class="video-info-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="channel-1.jpeg" alt="">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="video-author">Justin Doe</p>
+                <p class="video-stats">3.5M views &middot; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-2.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-2.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Laughing challenges #2</p>
+                    <p class="video-author">Terri Sect</p>
+                    <p class="video-stats">1.5M views &middot; 3 years ago</p>
+                </div>
+            </div>
+    </div>
+    <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail-2.webp" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel-2.jpeg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">testing #2</p>
+                    <p class="video-author">Terri Sect</p>
+                    <p class="video-stats">1.5M views &middot; 3 years ago</p>
+                </div>
+            </div>
+    </div>
+
+
+    </div>
+
 </body>
 </html>

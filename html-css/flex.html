@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .blue {
+            background-color: blue;
+            width: 200px;
+        }
+
+        .pink {
+            background-color: pink;
+            width: 75px;
+        }
+
+        .item1 {
+            width: 50px;
+            background-color: blue;
+        }
+
+        .item2 {
+            background-color: pink;
+            flex: 1;
+        }
+
+        .item3 {
+            width: 75px;
+            background-color: blue;
+        }
+
+        .flex1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .test-a {
+            background-color: pink;
+            flex: 1;
+        }
+        .test-b {
+            flex: 1;
+            background-color: pink;
+        }
+        .test-c {
+            flex: 1;
+            background-color: pink;
+        }
+        .test-d {
+            background-color: pink;
+        }
+
+        .flexbox-border {
+            display: flex;
+            border: 1px solid black;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .item-q {
+            background-color: pink;
+        }
+
+        .item-w {
+            background-color: pink;
+        }
+
+        .notification {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid grey;
+            width: 300px;
+        }
+
+        .notification-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 10px;
+            padding: 5px;
+        }
+
+        .btn {
+            background-color: blue;
+            margin-right: 5px;
+            color: white;
+            border-radius: 10px;
+            padding: 5px 10px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <p class="blue">200px</p>
+        <p class="pink">75px</p>
+    </div>
+
+    <div class="flex">
+        <p class="item1">item1</p>
+        <p class="item2">item2</p>
+        <p class="item3">item3</p>
+    </div>
+
+    <div class="flex1">
+        <p class="test-a">item1</p>
+        <p class="test-b">item1</p>
+        <p class="test-c">item2</p>
+        <p class="test-d">item3</p>
+    </div>
+
+    <div class="flexbox-border">
+            <p class="item-q">item1</p>
+            <p class="item-w">item2</p>
+    </div>
+
+    <div class="notification">
+        <div class="notification-item">
+            <div>Home</div>
+            <div class="btn">123</div>
+        </div>
+        <div class="notification-item">
+            <div>Calls</div>
+            <div class="btn">13</div>
+        </div>
+        <div class="notification-item">
+            <div>Messages</div>
+            <div class="btn">1</div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
